@@ -1,0 +1,56 @@
+/* Default */
+.btn {
+  padding: 10px 15px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid var(--secondary-color);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all .2s linear;
+  color: var(--secondary-color);
+  position: relative;
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.btn:disabled {
+  border-color: var(--disabled-color);
+  color: var(--disabled-color);
+  background-color: #6464646b;
+  pointer-events: none;
+}
+
+
+/* Success */
+.btn--success,
+.btn--success:hover {
+  border-color: var(--success-color);
+}
+
+.btn--success {
+  color: var(--success-color);
+}
+
+.btn--success:hover {
+  background-color: var(--success-color);
+}
+
+
+/* Error */
+.btn--error,
+.btn--error:hover {
+  border-color: var(--error-color);
+}
+
+.btn--error {
+  color: var(--error-color);
+}
+
+.btn--error:hover {
+  background-color: var(--error-color);
+}

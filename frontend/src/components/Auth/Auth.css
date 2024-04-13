@@ -1,0 +1,39 @@
+.auth {
+  height: 400px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.auth__title {
+  text-align: center;
+  font-size: 45px;
+  color: var(--secondary-color);
+  text-shadow: 2px 2px var(--primary-color);
+  user-select: none;
+}
+
+.auth__part {
+  height: 100%;
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  
+  margin: 30px auto 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.auth__part.auth__part--right,
+.auth__part--left:has(~.switch>.switch__checkbox:checked) {
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+.auth__part--right:has(~.switch>.switch__checkbox:checked) {
+  opacity: 1;
+  pointer-events: all;
+}

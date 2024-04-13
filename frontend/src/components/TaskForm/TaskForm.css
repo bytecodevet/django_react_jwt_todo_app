@@ -1,0 +1,20 @@
+.form,
+.form__delimiter {
+  width: 100%;
+}
+
+.form {
+  height: 40px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  gap: 10px;
+  padding: 0 10px;
+  position: relative;
+}
+
+.form__delimiter {
+  border: none;
+  border-bottom: 1px solid var(--secondary-color);
+  position: absolute;
+  bottom: -14px;
+}

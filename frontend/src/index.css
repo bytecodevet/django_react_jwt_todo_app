@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./assets/images/background.jpg');
+}
+
+:root {
+  --primary-color: #2fb2bb;
+  --secondary-color: #fff;
+  --success-color: #06d6a0;
+  --error-color: #ee3e38;
+  --disabled-color: #ccc;
+}

@@ -1,4 +1,4 @@
-# Todo Приложение на Django + React + PostgreSQL с JWT авторизацией
+# Todo Приложение на Django + React + PostgreSQL + TypeScript с JWT авторизацией
 ## Демо фото:
 ![Demo 1](demo/1.png)
 ![Demo 2](demo/2.png)
